@@ -3,3 +3,8 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+/*.container .login_container */ /* Class du container sur page login */
+.col s6{
+    text-align: center;
+}
