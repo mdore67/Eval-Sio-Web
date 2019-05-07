@@ -8,3 +8,11 @@ footer{
 .col s6{
     text-align: center;
 }
+
+.container{
+    
+}
+
+.nav-wrapper{
+    background-color: #4a148c purple darken-4;
+}

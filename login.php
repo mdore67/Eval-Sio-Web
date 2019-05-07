@@ -9,7 +9,7 @@
                 <div class="z-depth-3 y-depth-3 x-depth-3 grey  lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px; margin-top: 100px; solid #EEE;">
 
 
-                    <h4>Login</h4>
+                    <h4>Veuillez vous connecter : </h4>
                     <form action="/login" method="post">
                         
 

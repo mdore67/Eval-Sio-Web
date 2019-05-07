@@ -13,7 +13,7 @@
 ?>
 
 
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Snippet de HTML5 générée par VSCode -->
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -34,7 +34,7 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Connexion</a></li> <!--Ajouter page Connexion -->
+        <li><a href="login.php">Connexion</a></li> <!--Ajouter page Connexion -->
         <li><a href="badges.html">Test Admin</a></li> <!--Ajouter page -->
         <li><a href="collapsible.html">JavaScript</a></li> <!--Ajouter page -->
       </ul>
