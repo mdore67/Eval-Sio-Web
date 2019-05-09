@@ -31,7 +31,7 @@
 
 
 <nav> <!-- Navbar générée avec Materialize -->
-    <div class="nav-wrapper">
+    <div class="nav-wrapper"> <!-- Pour changer couleur de fond de la navbar, ne fonctionne pas card panel #4a148c purple darken-4-->
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="login.php">Connexion</a></li> <!--Ajouter page Connexion -->
