@@ -3,6 +3,9 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.welcome{
+    text-align: center;
+}
 
 /*.container .login_container */ /* Class du container sur page login */
 .col s6{

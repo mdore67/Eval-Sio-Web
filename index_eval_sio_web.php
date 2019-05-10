@@ -26,9 +26,9 @@
  
  
  <section class="col s6">
-            <h2>Bienvenue sur le gestionnaire d'évaluations d'IFIDE SUP'FORMATION !</h2>
+            <h2 class="welcome">Bienvenue sur le gestionnaire d'évaluations d'IFIDE SUP'FORMATION !</h2>
             <article>
-                <p>Cette application Web vous permettra de rentrer les notes des différents élèves</p>
+                <p>Cette application Web vous permettra de rentrer les notes des différents élèves NTM FDP</p>
                 <p>
                     Lorem ipseum dolor sit amet, consectetur adipiscing elit. Ut mattis urna sit amet velit euismod lacinia. Donec elit leo, tempor sed ornare a, gravida quis arcu. Suspendisse potenti. Donec convallis erat id libero pretium mollis. Vestibulum vitae vulputate nunc. Aliquam eu maximus massa. Maecenas accumsan turpis sit amet felis vulputate tristique. Morbi vehicula massa ac feugiat pulvinar. Nullam molestie vehicula tortor dignissim facilisis. Sed volutpat nibh at euismod luctus. Praesent quis vestibulum mi, non suscipit mi. Integer molestie magna lectus. Donec id porta dolor, in tincidunt augue. Phasellus vel rutrum urna. Proin porta ipsum non augue sodales eleifend.
             </article>
