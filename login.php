@@ -16,7 +16,7 @@
                         <div class='row'>
                             <div class='input-field col s12'>
                             <input class='validate' type="text" name='username' id='username' required  />
-                            <label for='username'>Username</label>
+                            <label for='username'>Identifiant</label>
                             </div>
 
                        
@@ -26,7 +26,7 @@
 
                             <div class='input-field col s12 '>
                             <input class='validate' type='password' name='password' id='password' required/>
-                                <label for='password'>Password</label>
+                                <label for='password'>Mot de passe</label>
                             </div>
                          
                         </div>
