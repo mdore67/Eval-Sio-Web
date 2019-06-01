@@ -2,30 +2,25 @@
           
  <div class="row">
  
-        <aside class="col s3">
-              <h3>Statistiques</h3> <!-- Pour pouvoir se logger en tant que professeur, Admin etc... -->
-            <br />
-            <br />
             <?php 
             
-                // try
-                // {
-                //     //Pour connecter une page web à une base de données :
-                //     $bdd = new PDO("mysql:host=localhost;dbname=//nom database;charset=utf8", "user", "pwd");
-                //     $req = $bdd->query('SELECT COUNT(id) as nb FROM player');
-                // }
-                // catch (Exception $e)
-                // {
-                //     die('Erreur : ' . $e->getMessage());
-                // }
-                // $donnees = $req->fetch();
-                // echo $donnees['nb']. "joueurs inscrits";
-                
+                 try
+                 {
+                     //Pour connecter une page web à une base de données :
+                      $bdd = new PDO("mysql:host=localhost;dbname=eval_sio_web;charset=utf8", "root", "mint"); //User = id admin de la bdd pwd = password de l'admin de la bdd
+                      $req = $bdd->query('SELECT COUNT(id) as nb FROM connexion');
+                  }
+
+                  catch (Exception $e)
+                 {
+                     die('Erreur : ' . $e->getMessage());
+                  }
+            
             ?>
         </aside>
  
  
-        <section class="col s6">
+        <section class="col s7">
                     <h2 class="welcome">Bienvenue sur Eval Sio Web !</h2>
                     <br />
                     <article>
@@ -37,24 +32,13 @@
         </section>
  
  
-        <aside class="col s3">
-                    <!-- <h3>Connexion</h3>
-                    <br />
-                    <br />
-                    <form action="game.php" method="post">
-                        <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" />
-                        <br />
-                        <br />
-                        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" />
-                        <br />
-                        <br />
-                        <input type="submit" value="Login" />
-                    </form> -->
+        <aside class="col s5">
+                    
                     <div class="container login_container">
                 <div class="z-depth-3 y-depth-3 x-depth-3 grey  lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px; margin-top: 100px; solid #EEE;">
 
 
-                    <h4>Veuillez vous connecter : </h4>
+                    <h4>Veuillez vous connecter : </h4> <!-- Div de connexion -->
                     <form action="/login" method="post">
                         
 
@@ -64,20 +48,12 @@
                             <label for='username'>Identifiant</label>
                             </div>
 
-                       
-
-
-
-
                             <div class='input-field col s12 '>
                             <input class='validate' type='password' name='password' id='password' required/>
                                 <label for='password'>Mot de passe</label>
                             </div>
                          
                         </div>
-
-
-
                         <div class='row'>
                             <button type='submit' class='col btn waves-effect z-depth-1 y-depth-1'>Login</button>
                         </div>

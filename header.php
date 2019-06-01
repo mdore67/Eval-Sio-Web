@@ -32,7 +32,8 @@
 
 <nav> <!-- Navbar générée avec Materialize -->
     <div class="nav-wrapper"> <!-- Pour changer couleur de fond de la navbar, ne fonctionne pas card panel #4a148c purple darken-4-->
-      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" class="brand-logo">Logo</a> 
+      <!-- <a href="index_eval_sio_web.php" class="brand-logo"><img src="images/logoEvalSio.png" class="logo"></a> --> <!-- Refaire le logo -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index_eval_sio_web.php">Accueil</a></li> <!-- Ajouter page d'accueil -->
         <li><a href="login.php">Connexion</a></li> <!--Ajouter page Connexion -->
