@@ -1,19 +1,10 @@
-<html>
-    <head>
-        <title>Connexion Eval Sio Web</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="design_eval.css" />
-    </head>
-    <body>
-        <header>
+<?php
+    include_once('header.php')
+?>
+
+
             <h1>Veuillez vous inscrire au sytème de gestion de grilles d'évaluation !</h1>
-            <nav>
-                <a href="index_eval_sio_web.php">Accueil</a> <> <a href="register_eval.php">Inscription</a>
-            </nav>
-        </header>
-        <aside>
-        </aside>
-        <section>
+        
             <h2>Inscription</h2>
             <form action="register_eval.php" method="post">
                 <table>
@@ -78,12 +69,7 @@
                        
                     }
                 ?>
-            </form>
-        </section>
-        <aside>
-        </aside>
-        <footer>
-            Copyright @ Cours 2019
-        </footer>
-    </body>
-</html>
+
+<?php 
+    include_once('footer.php')
+?>

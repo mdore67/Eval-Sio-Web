@@ -38,7 +38,7 @@
         <li><a href="index_eval_sio_web.php">Accueil</a></li> <!-- Ajouter page d'accueil -->
         <li><a href="login.php">Connexion</a></li> <!--Ajouter page Connexion -->
         <li><a href="admin.php">Admin</a></li> <!--Ajouter page -->
-        <li><a href="collapsible.html">JavaScript</a></li> <!--Ajouter page -->
+        <li><a href="register_eval.php">Inscription</a></li> <!--Ajouter page -->
       </ul>
     </div>
   </nav>
